@@ -1,0 +1,63 @@
+.AppHeader {
+  margin: 40px;
+  padding: 16px 320px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: stretch; */
+  /* justify-items: stretch; */
+  background-color: #1c1c21;
+  /* outline: 1px solid red; */
+  justify-content: space-between;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  /* outline: 1px solid red; */
+}
+
+.button {
+  margin-right: 8px;
+  display: flex;
+  flex-direction: row;
+  /* outline: 1px solid red; */
+  color: #8585ad;
+  padding: 16px 20px 16px 20px;
+  text-decoration: none;
+}
+
+.label {
+  margin-left: 8px;
+}
+
+.buttonActive {
+  padding: 16px 20px 16px 20px;
+  margin-right: 8px;
+  display: flex;
+  flex-direction: row;
+  /* outline: 1px solid red; */
+  color: #f2f2f3;
+  text-decoration: none;
+}
+
+.logo {
+  /* outline: 1px solid red; */
+  /* flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  text-align: center;
+  flex: 2;
+}
+
+.profileGrpoup {
+  padding: 16px 20px 16px 20px;
+  color: #8585ad;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: flex-end;
+  /* outline: 1px solid red; */
+  text-decoration: none;
+}

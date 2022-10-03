@@ -1,0 +1,73 @@
+.constructorWindow {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  height: 696px;
+  width: auto;
+  padding-right: 8px;
+  padding-left: 48px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  /* outline: 1px solid red; */
+  display: flex;
+  overflow-y: scroll;
+}
+
+.constructorWindow::-webkit-scrollbar {
+  width: 8px;
+}
+.constructorWindow::-webkit-scrollbar-track {
+  background-color: #2f2f37;
+}
+
+.constructorWindow::-webkit-scrollbar-thumb {
+  background-color: #8585ad;
+}
+
+.box {
+  width: 600px;
+  /* outline: 1px solid green; */
+}
+
+.topItem {
+  width: auto;
+  padding-right: 8px;
+  padding-left: 48px;
+  /* outline: 1px solid red; */
+  display: flex;
+}
+
+/* .item {
+  margin-left: auto;
+  outline: 1px solid greenyellow;
+} */
+
+.border {
+  margin-left: 40px;
+  /* width: 600px; */
+  height: 650px;
+  margin-top: 40px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  /* outline: 1px solid red; */
+}
+
+.orderDetails {
+  margin-top: 40px;
+  padding-right: 15px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* outline: 1px solid red; */
+}
+
+.price {
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 9px;
+}

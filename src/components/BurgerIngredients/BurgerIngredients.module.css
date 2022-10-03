@@ -1,0 +1,53 @@
+.ingredients {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  padding-left: 16px;
+  padding-right: 16px;
+  display: grid;
+  /* grid-template-columns: 100px 100px; */
+  grid-template-columns: repeat(2, 272px);
+  grid-template-rows: 208px;
+  column-gap: 24px;
+  row-gap: 32px;
+  /* display: flex; */
+  /* outline: 1px solid greenyellow; */
+  overflow-x: hidden;
+}
+
+.mainBox {
+  margin-right: 40px;
+
+  /* height: 912px; */
+}
+
+.box {
+  width: 600px;
+
+  height: 872px;
+  overflow-y: scroll;
+
+  /* outline: 1px solid green; */
+}
+
+.box::-webkit-scrollbar {
+  width: 8px;
+}
+.box::-webkit-scrollbar-track {
+  background-color: #2f2f37;
+}
+
+.box::-webkit-scrollbar-thumb {
+  background-color: #8585ad;
+  /* color: #2f2f37; */
+  /* outline: 1px solid slategrey; */
+}
+
+.tilte {
+  width: fit-content;
+  margin-right: auto;
+}
+
+.tabTittle {
+}
